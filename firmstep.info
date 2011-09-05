@@ -75,6 +75,12 @@ dependencies[] = context_field
 dependencies[] = entity_autocomplete
 dependencies[] = views_boxes
 
+; Firmstep Additions
+
+dependencies[] = rules
+dependencies[] = services
+
+
 ; Custom 
 
 ;dependencies[] = context_no_title

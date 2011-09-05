@@ -139,3 +139,15 @@ libraries[plupload][download][type] = get
 libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
 libraries[plupload][destination] = modules/mediapackage/plupload
 libraries[plupload][directory_name] = plupload
+
+; Firmstep Additions
+
+projects[services][type] = module
+projects[services][subdir] = contrib
+projects[services][version] = 7.x-3.0-rc5
+
+projects[rules][type] = module
+projects[rules][subdir] = contrib
+projects[rules][version] = 7.x-2.0-rc1
+
+
