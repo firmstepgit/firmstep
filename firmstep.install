@@ -260,14 +260,14 @@ function firmstep_install_tasks() {
     'display' => FALSE,
     'type' => 'normal',
     'run' => INSTALL_TASK_RUN_IF_REACHED,
-    'function' => 'openpublic_configure_securepages',
+    'function' => 'firmstep_configure_securepages',
   );
   $task['comment_notify'] = array(
     'display_name' => st('Install configurations for Comment Notify'),
     'display' => FALSE,
     'type' => 'normal',
     'run' => INSTALL_TASK_RUN_IF_REACHED,
-    'function' => 'openpublic_configure_commentnotify',
+    'function' => 'firmstep_configure_commentnotify',
   );
   return $task;
 }
