@@ -1,0 +1,8 @@
+/* PNG transparency issue with jCycle */
+.home-top-intro h2 {
+  background: none; 
+}
+
+.home-rotator-slide {
+  background: none;
+}

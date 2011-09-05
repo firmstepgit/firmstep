@@ -1,0 +1,60 @@
+
+
+/* Breaking News */
+
+.breaking-news {
+	border: 2px solid #ae133e;
+	background: #FFF url(sprite.png) no-repeat 0 -200px;
+	margin: 15px 0;
+	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 2px 8px rgba(0,0,0,.5);
+	box-shadow: 0 2px 8px rgba(0,0,0,.5);
+    height: 45px;
+}
+
+.breaking-news .breaking-news-header {
+	background: url(sprite.png) no-repeat 0 -342px;
+	font-style: italic;
+	text-indent: -9000px;
+	width: 185px;
+	height: 35px;
+	float: left;
+	margin: 6px 0 0 10px;
+    border: 0 0 0 0;
+    border-top : 0;
+    padding : 0 0 0 0;
+}
+
+.breaking-news .headline {
+	float: left;
+	font-weight: 700;
+	font-size: 1.25em;
+	padding: 13px 0;
+	color: #666;
+}
+
+.breaking-news span.read-more {
+	float: left;
+	color: #179bcd;
+	font-size: 1.25em;
+	padding: 13px 20px 0 5px;
+	background: url(sprite.png) no-repeat -277px 15px;
+}
+
+.breaking-news span.read-more:hover {
+	background: url(sprite.png) no-repeat -277px -17px;
+	text-decoration: none;
+	}
+
+.breaking-news span.read-more a {
+	color: #179bcd;
+	font-size: inherit;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.breaking-news span.read-more a:hover {
+	text-decoration: none;
+	color: #88defe;
+}
+

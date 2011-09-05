@@ -1,0 +1,49 @@
+/* Node-related CSS */
+.view-id-resources .photo {
+  display: inline;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+  .view-id-resources .photo img {
+    border: 2px solid #ccc;
+  }
+.view-id-resources .view-content h4 {
+  color:#707071;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 13px;
+}
+  .view-id-resources .view-content h4 a {
+    font-weight: 700;
+    color: #00436f;
+    text-decoration: none;
+  }
+.view-id-resources .view-content .read-more {
+  clear: left;
+  font-family: Arial, sans-serif;
+  font-size: 0.833em;
+  margin-top: 15px 0;
+  text-transform: uppercase;
+}
+
+.view-id-resources .view-content .read-more a {
+    background: url("bullet-arrow.png") 100% 0 no-repeat;
+    color: #179bcd;
+    font-size: 1em;
+    padding: 1px 15px 2px 0;
+    font-weight: 700;
+}
+  
+.view-id-resources .views-row {
+  clear: left;
+  border-bottom: 1px solid #E5E5E5;
+  margin: 20px 0 25px;
+  padding: 0 0 20px;
+}
+
+div.node div.field-name-field-resource-photo {
+  float: right;
+  margin: 0 0 0 18px;
+}

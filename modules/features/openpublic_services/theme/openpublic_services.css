@@ -1,0 +1,149 @@
+#home-services-for-you {
+	background: #2c3137 url("bg-services.jpg") no-repeat center top;
+	z-index: 0;
+	position: relative;
+}
+
+
+
+#block-views-services-block-1 #home-services-for-you {
+	padding: 26px 0 10px;
+}
+
+#home-services-for-you h3 {
+	visibility: hidden;
+}
+
+#block-views-services-block-1 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+#services-carousel {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  height: 130px;
+  overflow: hidden;
+  width: 880px;
+}
+#services-carousel ul {
+  padding: 0;
+}
+
+#home-services-for-you li {
+	list-style-type: none;
+	float: left;
+	height: 130px;
+}
+.nav-button {
+  position: absolute;
+  top: 28px;
+  z-index: 100;
+}
+.nav-button a {
+	width: 36px;
+	height: 52px;
+	display: block;
+	text-indent: -9000px;
+	margin-top: 18px;
+}
+
+#home-services-for-you #services-previous a {
+	background: url("sprite.png") no-repeat 0 -144px;
+}
+
+#home-services-for-you #services-previous a:hover {
+	background: url("sprite.png") no-repeat -139px -144px;
+}
+
+#home-services-for-you #services-next {
+	right: 0;
+}
+
+#home-services-for-you #services-next a {
+	background: url("sprite.png") no-repeat -66px -144px;
+}
+
+#home-services-for-you #services-next a:hover {
+	background: url("sprite.png") no-repeat -210px -144px;
+}
+
+#home-services-for-you li.entry {
+	width: 140px;
+	margin: 0 18px;
+	font-style: italic;
+}
+
+#home-services-for-you li.entry a {
+	display: block;
+	color: #bebebe;
+}
+
+#home-services-for-you li.entry a:hover {
+	color: #dedede;
+}
+
+#home-services-for-you li.entry img {
+	border: 3px solid #999;
+}
+
+#home-services-for-you li.entry img:hover {
+	border: 3px solid #bebebe;
+}
+
+#home-services-for-you li.entry h4 {
+	font-size: 1.167em;
+	margin: 5px 0 0;
+	font-family: Georgia, serif;
+}
+
+
+/* Node-related CSS */
+.view-id-services .photo {
+  display: inline;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+  .view-id-services .photo img {
+    border: 2px solid #ccc;
+  }
+.view-id-services .view-content h4 {
+  color:#707071;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 13px;
+}
+  .view-id-services .view-content h4 a {
+    font-weight: 700;
+    color: #00436f;
+    text-decoration: none;
+  }
+.view-id-services .view-content .read-more {
+  clear: left;
+  font-family: Arial, sans-serif;
+  font-size: 0.833em;
+  margin-top: 15px 0;
+  text-transform: uppercase;
+}
+  .view-id-services .view-content .read-more a {
+    background: url("bullet-arrow.png") 100% 0 no-repeat;
+    color: #179bcd;
+    font-size: 1em;
+    padding: 1px 15px 2px 0;
+    font-weight: 700;
+  }
+  
+.view-id-services .views-row {
+  clear: left;
+  border-bottom: 1px solid #E5E5E5;
+  margin: 20px 0 25px;
+  padding: 0 0 20px;
+}
+
+div.node .field-name-field-services-photo {
+  float: right;
+  margin: 0 0 0 18px;
+}
