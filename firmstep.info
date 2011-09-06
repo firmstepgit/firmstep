@@ -78,7 +78,7 @@ dependencies[] = views_boxes
 ; Firmstep Additions
 
 dependencies[] = rules
-dependencies[] = rules_ui
+; dependencies[] = rules_ui
 dependencies[] = services
 dependencies[] = civicrm
 
