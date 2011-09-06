@@ -80,7 +80,7 @@ dependencies[] = views_boxes
 dependencies[] = rules
 ; dependencies[] = rules_ui
 dependencies[] = services
-dependencies[] = civicrm
+; dependencies[] = civicrm
 
 
 ; Custom 
