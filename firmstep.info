@@ -78,7 +78,9 @@ dependencies[] = views_boxes
 ; Firmstep Additions
 
 dependencies[] = rules
+dependencies[] = rules_ui
 dependencies[] = services
+dependencies[] = civicrm
 
 
 ; Custom 
@@ -134,8 +136,8 @@ stylesheets[all][] = css/menu.css
 scripts[] = js/menu.js
 
 ; Information added by drupal.org packaging script on 2011-08-19
-version = "7.x-1.0-beta2"
-core = "7.x"
-project = "firmstep"
-datestamp = "1313763720"
+; version = "7.x-1.0-beta2"
+; core = "7.x"
+; project = "firmstep"
+; datestamp = "1313763720"
 
