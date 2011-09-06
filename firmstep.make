@@ -150,9 +150,10 @@ projects[rules][type] = module
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.0-rc1
 
-libraries[civicrm][download][type] = get
-libraries[civicrm][download][url] = http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz
-libraries[plupload][destination] = modules/contrib
+
+projects[civicrm][type] = module
+projects[civicrm][download][type] = file
+projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
 
 
 
