@@ -151,6 +151,10 @@ projects[rules][subdir] = contrib
 projects[rules][version] = 2.0-rc1
 
 
+projects[simpletest][type] = module
+projects[simpletest][subdir] = contrib
+projects[simpletest][version] = 7.x-2.0
+
 projects[civicrm][type] = module
 projects[civicrm][download][type] = file
 projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
