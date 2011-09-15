@@ -159,5 +159,10 @@ projects[civicrm][type] = module
 projects[civicrm][download][type] = file
 projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
 
+projects[as_reception][type] = module
+projects[as_reception][download][type] = git
+projects[as_reception][download][url] = git@github.com:firmstepgit/AchieveService-Reception.git
+projects[as_reception][subdir] = achieveservice
+
 
 
