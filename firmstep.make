@@ -158,6 +158,11 @@ projects[superfish][type] = module
 projects[superfish][subdir] = themes/contrib
 projects[superfish][version] =  1.8
 
+;required for superfish
+projects[libraries][type] = module
+projects[libraries][subdir] = themes/contrib
+projects[libraries][version] =  1.0
+
 projects[civicrm][type] = module
 projects[civicrm][download][type] = file
 projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
