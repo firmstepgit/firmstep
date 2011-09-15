@@ -150,10 +150,13 @@ projects[rules][type] = module
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.0-rc1
 
-
 ;projects[simpletest][type] = module
 ;projects[simpletest][subdir] = contrib
 ;projects[simpletest][version] = 2.0
+
+projects[superfish][type] = module
+projects[superfish][subdir] = themes/contrib
+projects[superfish][version] =  1.8
 
 projects[civicrm][type] = module
 projects[civicrm][download][type] = file
