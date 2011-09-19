@@ -169,8 +169,17 @@ projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/file
 
 projects[as_reception][type] = module
 projects[as_reception][download][type] = git
-projects[as_reception][download][url] = git@github.com:firmstepgit/AchieveService-Reception.git
+projects[as_reception][download][url] = git@github.com:firmstepgit/as_reception.git
 projects[as_reception][subdir] = achieveservice
 
+projects[as_frontdesk][type] = module
+projects[as_frontdesk][download][type] = git
+projects[as_frontdesk][download][url] = git@github.com:firmstepgit/as_frontdesk.git
+projects[as_frontdesk][subdir] = achieveservice
+
+projects[as_ticket][type] = module
+projects[as_ticket][download][type] = git
+projects[as_ticket][download][url] = git@github.com:firmstepgit/as_ticket.git
+projects[as_ticket][subdir] = achieveservice
 
 
