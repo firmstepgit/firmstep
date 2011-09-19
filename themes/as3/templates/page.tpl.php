@@ -192,4 +192,4 @@
   <?php print render($page['footer']); ?>
 <div class="push"></div>
 </div></div><!-- /#page, /#page-wrapper -->
-<?php require_once dirname(__FILE__) . '/page-bottom.inc'; ?>
+<?php //require_once dirname(__FILE__) . '/page-bottom.inc'; ?>
