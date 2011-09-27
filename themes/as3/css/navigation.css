@@ -43,7 +43,7 @@ li a.active {
     font-size: 18px;
     margin-top: 2px;
 }
-.region-navigation .main-menu a:hover{
+.region-navigation .main-menu a:hover, .region-navigation .main-menu a.active{
     border-bottom-color: #004cd2;
 }
 

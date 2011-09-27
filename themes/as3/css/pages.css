@@ -227,3 +227,60 @@ ul.links li {
  */
 .region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
 }
+
+
+/* AS3 Custom Scripting */
+h1.title{
+	background: #003d8f;
+	color: #fff;
+	font-weight: normal;
+	padding: 5px 5px 5px 15px;
+}
+h2.block-title{
+	color:#fff;
+	background: #000;
+	font-size: 125%;
+	font-weight: normal;
+	padding: 5px 5px 5px 15px;
+}
+
+/*Right bar specific styling */
+.region-sidebar-second{
+	padding-top: 1.5em;
+	height:100%;
+}
+.region-sidebar-second h2.block-title{
+	background: #0051a0 url(../images/navigation/accordion_background.png) repeat-x;
+	color: #fff;
+	border-radius: 5px;
+}
+
+fieldset{
+	margin: 0;
+	border: solid 2px #000;
+	border-top: none;
+	position: relative;
+	padding-top: 1.8em;
+}
+legend {
+    padding: 0.2em 0.5em;
+    color:#bbb;
+    font-size:150%;
+    position:absolute;
+	top: 5px;
+	right: 5px;
+}
+input.form-text{
+	padding: 10px;
+	border: none;
+	background: #e6e6e6;
+	border-radius: 5px;
+	color:#515151;
+}
+input:focus.form-text{
+	outline: none;
+	background-color: #E4EAFF;
+}
+.column .content{
+	padding-bottom: 1.5em;
+}

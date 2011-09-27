@@ -15,8 +15,9 @@
 }
 
 .form-item label /* The label for a form element */ {
-  display: block;
-  font-weight: bold;
+	display: inline-block;
+	font-weight: bold;
+	width: 33%;
 }
 
 .form-item label.option /* The label for a radio button or checkbox */ {

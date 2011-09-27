@@ -95,7 +95,7 @@
         <?php endif; ?>
       </div><!-- /#name-and-slogan -->
     <?php endif; ?>
-<?php print $user_picture ?>
+
     <?php
 
       print theme('links__system_secondary_menu', array(
@@ -117,9 +117,11 @@
 
   <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu || $page['navigation']) { print ' with-navigation'; } ?>">
 
-    <div id="content" class="column"><div class="section">
+    <div id="content" class="column">
+	    <?php print $breadcrumb; ?>
+	    <div class="section">
       <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
+
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -192,4 +194,4 @@
   <?php print render($page['footer']); ?>
 <div class="push"></div>
 </div></div><!-- /#page, /#page-wrapper -->
-<?php //require_once dirname(__FILE__) . '/page-bottom.inc'; ?>
+<?php require_once dirname(__FILE__) . '/page-bottom.inc'; ?>
