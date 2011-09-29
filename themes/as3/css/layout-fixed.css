@@ -33,19 +33,19 @@ body,html {
    */
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  /*width: 960px;*/
 }
 
 
 #page-wrapper{
-    margin-bottom: -77px;
+    /*margin-bottom: -77px;
     height: 100% !important;
     min-height:100%;
-    height: auto;
+    height: auto;*/
 }
 /* Pusher to keep the page displaying right */
 .push{
-    height:65px;
+    /*height:65px;*/
 }
 #page {
 }
@@ -55,9 +55,12 @@ body,html {
  */
 #header {
 }
-
-#header .section {
-    border-bottom:  solid 5px #333;background: #FFF; margin-bottom: 12px;
+.header-wrapper {
+	border-bottom:  solid 5px #333;background: #FFF; margin-bottom: 12px;
+	padding-bottom: 1.5em;
+}
+#header .section, .main-page-wrapper {
+    width: 960px; margin: auto;
 }
 
 .region-header {
@@ -79,7 +82,7 @@ body,html {
 #content,
 .no-sidebars #content {
   float: left; /* LTR */
-  width: 960px;
+  width: 960px; /* Page width */
   margin-left: 0; /* LTR */
   margin-right: -960px; /* LTR */ /* Negative value of #content's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to #content .section. */
@@ -94,7 +97,7 @@ body,html {
 .sidebar-second #content {
   width: 660px;
   margin-left: 0; /* LTR */
-  margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
+  margin-right: -660px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 .two-sidebars #content {
@@ -112,7 +115,7 @@ body,html {
  * Navigation
  */
 #navigation {
-  float: left; /* LTR */
+   /* LTR */
   width: 100%;
   margin-left: 0; /* LTR */
   margin-right: -100%; /* LTR */ /* Negative value of #navigation's width + left margin. */

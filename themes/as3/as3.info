@@ -60,12 +60,16 @@ stylesheets[print][]      = css/print.css
 ;stylesheets-conditional[IE][all][]       = css/ie.css
 stylesheets-conditional[lte IE 7][all][]  = css/ie7.css
 stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
-
+stylesheets[all][] = sf/css/superfish.css
+stylesheets[all][] = sf/css/theme.css
 
 
 ; Optionally add some JavaScripts to your theme.
 
 ;scripts[] = js/script.js
+
+scripts[]          = sf/js/superfish.js
+scripts[]          = js/as3.js
 
 
 
@@ -82,11 +86,11 @@ stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
 regions[help]           = Help
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
-regions[navigation]     = Navigation bar
+regions[superfish_menu] = Superfish Menu
+;regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[content]        = Content
 regions[header]         = Header
-regions[footer]         = Footer
 regions[bottom]         = Page bottom
 regions[page_top]       = Page top
 regions[page_bottom]    = Page bottom

@@ -171,7 +171,7 @@ ul.links /* List of links */ {
 }
 
 ul.links.inline {
-  display: block; /* Let the links be inline, but the container be a block. */
+  /*display: block; /* Let the links be inline, but the container be a block. */
 }
 
 ul.links li {

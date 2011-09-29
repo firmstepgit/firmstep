@@ -8,7 +8,7 @@
 </div><!--/wrap-->
 
 
-  <div id="footer" class="clearfix clear">
+  <div id="footer" class="clearfix clear-block">
   <div id="footer-inner" class="center-on-page clearfix">
       
 

@@ -68,56 +68,59 @@
  * @see template_process()
  */
 ?>
-<div id="page-wrapper"><div id="page">
-
-  <div id="header"><div class="section clearfix">
+<div id="page-wrapper">
+<div id="page">
+<div class="header-wrapper">
+  <div id="header">
+	  <div class="section clearfix">
 
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
     <?php endif; ?>
 
-    <?php if ($site_name || $site_slogan): ?>
-      <div id="name-and-slogan">
-        <?php if ($site_name): ?>
-          <?php if ($title): ?>
-            <div id="site-name"><strong>
-              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-            </strong></div>
-          <?php else: /* Use h1 when the content title is empty */ ?>
-            <h1 id="site-name">
-              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-            </h1>
-          <?php endif; ?>
-        <?php endif; ?>
+	<?php require_once dirname(__FILE__) . '/log-in.inc'; ?>
 
-        <?php if ($site_slogan): ?>
-          <div id="site-slogan"><?php print $site_slogan; ?></div>
-        <?php endif; ?>
-      </div><!-- /#name-and-slogan -->
-    <?php endif; ?>
-
-    <?php
-
-      print theme('links__system_secondary_menu', array(
-      'links' => $secondary_menu,
-      'attributes' => array(
-        'id' => 'secondary-menu',
-        'class' => array('links', 'inline', 'clearfix'),
-      ),
-      'heading' => array(
-        'text' => $secondary_menu_heading,
-        'level' => 'h2',
-        'class' => array('element-invisible'),
-      ),
-    )); ?>
+    
 
     <?php print render($page['header']); ?>
 
-  </div></div><!-- /.section, /#header -->
+  </div>
+  </div>
+</div>
+	<!-- /.section, /#header -->
 
-  <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu || $page['navigation']) { print ' with-navigation'; } ?>">
+  <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu || $page['superfish_menu']) { print ' with-navigation'; } ?>">
 
-    <div id="content" class="column">
+  <div id="superfish">
+
+
+	  <?php  if ($page['superfish_menu'] || $main_menu): ?>
+      <div id="navigation"><div class="section clearfix">
+
+
+        <?php
+
+          print theme('links__system_main_menu', array(
+          'links' => $main_menu,
+          'attributes' => array(
+            'id' => 'main-menu',
+            'class' => array('links', 'inline', 'clearfix'),
+          ),
+          'heading' => array(
+            'text' => t('Main menu'),
+            'level' => 'h2',
+            'class' => array('element-invisible'),
+          ),
+        ));
+
+          ?>
+
+        <?php print render($page['superfish_menu']); ?>
+
+      </div></div><!-- /.section, /#navigation -->
+    <?php endif; ?></div>
+    <div class="main-page-wrapper">
+	  <div id="content" class="column">
 	    <?php print $breadcrumb; ?>
 	    <div class="section">
       <?php print render($page['highlighted']); ?>
@@ -139,51 +142,8 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div></div><!-- /.section, /#content -->
-
-    <?php if ($page['navigation'] || $main_menu): ?>
-      <div id="navigation"><div class="section clearfix">
-
-
-
-        <?php
-          /* The code to replace the static navigation from above
-<div class="region region-navigation">
-    <div id="block-system-navigation" class="block block-system block-menu first last odd">
-
-
-  <div class="content">
-    <ul class="menu main-menu">
-        <li class="first last collapsed"><a href="#" class="non-drop-down">home</a></li>
-        <li class="first last collapsed"><a href="#" class="non-drop-down">dashboard</a></li>
-        <li class="first last collapsed"><a href="#" class="non-drop-down">citizen</a></li>
-        <li class="first last collapsed"><a href="#" class="non-drop-down">admin options</a></li>
-        <li class="first last collapsed"><a href="#" class="contact-finder">contact finder</a></li>
-        <l class="first last collapsed"i><a href="#" class="faq-link">faq</a></li>
-    </ul>
-  </div>
-
 </div>
-  </div> */
 
-          print theme('links__system_main_menu', array(
-          'links' => $main_menu,
-          'attributes' => array(
-            'id' => 'main-menu',
-            'class' => array('links', 'inline', 'clearfix'),
-          ),
-          'heading' => array(
-            'text' => t('Main menu'),
-            'level' => 'h2',
-            'class' => array('element-invisible'),
-          ),
-        ));
-          
-          ?>
-
-        <?php print render($page['navigation']); ?>
-
-      </div></div><!-- /.section, /#navigation -->
-    <?php endif; ?>
 
     <?php print render($page['sidebar_first']); ?>
 
@@ -191,7 +151,6 @@
 
   </div></div><!-- /#main, /#main-wrapper -->
 
-  <?php print render($page['footer']); ?>
 <div class="push"></div>
 </div></div><!-- /#page, /#page-wrapper -->
 <?php require_once dirname(__FILE__) . '/page-bottom.inc'; ?>
