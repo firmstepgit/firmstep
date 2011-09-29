@@ -121,7 +121,7 @@
     <?php endif; ?></div>
     <div class="main-page-wrapper">
 	  <div id="content" class="column">
-	    <?php print $breadcrumb; ?>
+	    <?php //print $breadcrumb; ?>
 	    <div class="section">
       <?php print render($page['highlighted']); ?>
 

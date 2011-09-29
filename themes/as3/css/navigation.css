@@ -15,7 +15,7 @@ li a.active {
  * Navigation bar
  */
 #navigation {
-   overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+   /*overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
    background: #000 url(../images/navigation/nav_bar_background.png);
    color: #FFF;
 }

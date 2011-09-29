@@ -246,7 +246,7 @@ h2.block-title{
 
 /*Right bar specific styling */
 .region-sidebar-second{
-	padding-top: 1.5em;
+	/* padding-top: 1.5em; Enable of using breadcrumb */
 	height:100%;
 }
 .region-sidebar-second h2.block-title{
