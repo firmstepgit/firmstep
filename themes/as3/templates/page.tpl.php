@@ -120,6 +120,9 @@
       </div></div><!-- /.section, /#navigation -->
     <?php endif; ?></div>
     <div class="main-page-wrapper">
+	    <div id="ajax-responses-wrapper" class="ajax-responses-wrapper">
+	        <div id="ajax-responses" class="ajax-responses"></div>
+		</div>
 	  <div id="content" class="column">
 	    <?php //print $breadcrumb; ?>
 	    <div class="section">

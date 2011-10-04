@@ -222,3 +222,26 @@ body,html {
   overflow-y: hidden;
 }
 */
+.ajax-responses-wrapper{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	z-index: 1000;
+	display: none;
+}
+.ajax-responses{
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	top:50%;
+	left:50%;
+	margin-left: -170px;
+	margin-top: -120px;
+	z-index:1001;
+}
