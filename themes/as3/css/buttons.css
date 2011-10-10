@@ -12,7 +12,7 @@
     float: right;
     background:transparent;
 }
-.buttons-general, a.buttons-general{
+.buttons-general, a.buttons-general, .buttons-general a{
     display: inline-block;
     padding: 5px;
     border-radius: 5px;
@@ -22,7 +22,7 @@
     color: #0051a0;
     background: #E4EAFF;
 }
-a:hover.buttons-general{
+a:hover.buttons-general, .buttons-general a:hover{
     background: #0051a0;
     color: #fff;
 }
