@@ -139,3 +139,15 @@ form table .item-list ul {
 .inline-label .inline-input-text{
   float: left; width: 240px;
 }
+.button-set label{
+  margin: 0 0 5px;
+}
+.button-set{
+  margin: 0 0 20px;
+}
+.button-set .form-item{
+  display:inline;
+}
+.ui-button .ui-button-text {
+  display:inline;
+}
