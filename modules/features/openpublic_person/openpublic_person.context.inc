@@ -27,7 +27,7 @@ function openpublic_person_context_default_contexts() {
   );
   $context->reactions = array(
     'block' => array(
-      'blocks' => array(
+      'as_print_pdfs' => array(
         'views-profiles-block_1' => array(
           'module' => 'views',
           'delta' => 'profiles-block_1',

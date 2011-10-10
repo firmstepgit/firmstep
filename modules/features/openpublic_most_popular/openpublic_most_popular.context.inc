@@ -25,7 +25,7 @@ function openpublic_most_popular_context_default_contexts() {
   );
   $context->reactions = array(
     'block' => array(
-      'blocks' => array(
+      'as_print_pdfs' => array(
         'views-most_popular_content-block_1' => array(
           'module' => 'views',
           'delta' => 'most_popular_content-block_1',

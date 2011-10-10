@@ -1,0 +1,28 @@
+.buttons-form, .buttons-form-submit{
+    font-size: 24px;
+    color: #0051a0;
+    border: none;
+    float: right;
+    background:transparent;
+}
+.buttons-form-reset{
+    font-size: 24px;
+    color: #999;
+    border: none;
+    float: right;
+    background:transparent;
+}
+.buttons-general, a.buttons-general{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-decoration:none;
+    color: #0051a0;
+    background: #E4EAFF;
+}
+a:hover.buttons-general{
+    background: #0051a0;
+    color: #fff;
+}

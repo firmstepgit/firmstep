@@ -223,9 +223,9 @@ function openpublic_defaults_user_default_permissions() {
     'module' => 'apps',
   );
 
-  // Exported permission: administer blocks
-  $permissions['administer blocks'] = array(
-    'name' => 'administer blocks',
+  // Exported permission: administer as_print_pdfs
+  $permissions['administer as_print_pdfs'] = array(
+    'name' => 'administer as_print_pdfs',
     'roles' => array(
       0 => 'administrator',
       1 => 'editor',

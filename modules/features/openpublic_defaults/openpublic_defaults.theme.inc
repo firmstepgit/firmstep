@@ -228,13 +228,13 @@ function openpublic_defaults_menu_link_update($link) {
 
 function openpublic_defaults_context_load_alter(&$context) {
   if ($context->name == 'site_wide_before') {
-    foreach($context->reactions['block']['blocks'] as $key => $item) {
-      $context->reactions['block']['blocks'][$key]['weight'] = $item['weight'] - 100;
+    foreach($context->reactions['block']['as_print_pdfs'] as $key => $item) {
+      $context->reactions['block']['as_print_pdfs'][$key]['weight'] = $item['weight'] - 100;
     }
   }
   if ($context->name == 'site_wide_after') {
-    foreach($context->reactions['block']['blocks'] as $key => $item) {
-      $context->reactions['block']['blocks'][$key]['weight'] = $item['weight'] + 100;
+    foreach($context->reactions['block']['as_print_pdfs'] as $key => $item) {
+      $context->reactions['block']['as_print_pdfs'][$key]['weight'] = $item['weight'] + 100;
     }
   }
 }

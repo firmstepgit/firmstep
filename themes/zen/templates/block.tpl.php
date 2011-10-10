@@ -19,8 +19,8 @@
  *     that case the class would be "block-user".
  *   - first: The first block in the region.
  *   - last: The last block in the region.
- *   - odd: An odd-numbered block in the region's list of blocks.
- *   - even: An even-numbered block in the region's list of blocks.
+ *   - odd: An odd-numbered block in the region's list of as_print_pdfs.
+ *   - even: An even-numbered block in the region's list of as_print_pdfs.
  * - $title_prefix (array): An array containing additional output populated by
  *   modules, intended to be displayed in front of the main title tag that
  *   appears in the template.

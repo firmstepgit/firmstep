@@ -12,7 +12,7 @@ function openpublic_most_popular_views_default_views() {
 
   $view = new view;
   $view->name = 'most_popular_content';
-  $view->description = 'Creates blocks for Most Viewed and Most Commented content.';
+  $view->description = 'Creates as_print_pdfs for Most Viewed and Most Commented content.';
   $view->tag = 'openpublic';
   $view->base_table = 'node';
   $view->human_name = 'Most Popular Content';

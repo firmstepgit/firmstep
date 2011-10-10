@@ -6,7 +6,7 @@
  * Default theme implementation to display a region.
  *
  * Available variables:
- * - $content: The content for this region, typically blocks.
+ * - $content: The content for this region, typically as_print_pdfs.
  * - $classes: String of classes that can be used to style contextually through
  *   CSS. It can be manipulated through the variable $classes_array from
  *   preprocess functions. The default values can be one or more of the following:

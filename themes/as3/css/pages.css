@@ -257,18 +257,26 @@ h2.block-title{
 
 fieldset{
 	margin: 0;
-	border: solid 2px #000;
+	border: solid 1px #515151;
 	border-top: none;
 	position: relative;
-	padding-top: 1.8em;
+	padding-top:24px;
 }
 legend {
-    padding: 0.2em 0.5em;
-    color:#bbb;
-    font-size:150%;
+    color:#fff;
+    font-size:11px;
+    font-weight: normal;
+    display:block;
+    background: #999;
+    margin:0; padding:0;
+    width:100%;
     position:absolute;
-	top: 5px;
-	right: 5px;
+    top:0px;
+    left:0px;
+}
+legend .fieldset-legend{
+    display:block;
+    padding: 2px;
 }
 input.form-text{
 	padding: 10px;

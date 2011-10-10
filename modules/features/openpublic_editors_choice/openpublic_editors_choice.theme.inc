@@ -52,7 +52,7 @@ function openpublic_preprocess_field(&$variables) {
 /*
  * implement hook_block_view_alter
  *
- * We want to remove the subject for node blocks that have show title turned off
+ * We want to remove the subject for node as_print_pdfs that have show title turned off
  */
 function openpublic_editors_choice_block_view_alter(&$data, $block) {
   if( $block->module == 'nodeblock') {

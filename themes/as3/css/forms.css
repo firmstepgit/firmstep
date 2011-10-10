@@ -124,3 +124,18 @@ form tr.even {
 form table .item-list ul {
   margin: 0;
 }
+
+/* Add left float styling to inline form inputs */
+.inline-label-header{
+  float: left;margin-right: 10px; padding-top: 9px;
+}
+.inline-label{
+  float: left;
+  margin-right: 10px;
+}
+.inline-label .form-item{
+  margin:0;
+}
+.inline-label .inline-input-text{
+  float: left; width: 240px;
+}
