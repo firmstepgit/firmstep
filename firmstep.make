@@ -167,6 +167,13 @@ projects[civicrm][type] = module
 projects[civicrm][download][type] = file
 projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
 
+projects[nodejs][type] = module
+projects[nodejs][subdir] = contrib
+
+projects[quicktabs][type] = module
+projects[quicktabs][subdir] = contrib
+
+
 
 projects[achieveservice][type] = module
 projects[achieveservice][download][type] = git
@@ -211,5 +218,15 @@ projects[as_ticket][type] = module
 projects[as_ticket][download][type] = git
 projects[as_ticket][download][url] = git@github.com:firmstepgit/as_ticket.git
 projects[as_ticket][subdir] = achieveservice
+
+
+projects[achieveservice_core][type] = module
+projects[achieveservice_core][download][type] = git
+projects[achieveservice_core][download][url] = git@github.com:firmstepgit/achieveservice_core.git
+projects[achieveservice_core][subdir] = achieveforms
+
+
+
+
 
 
