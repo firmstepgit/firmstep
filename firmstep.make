@@ -204,6 +204,11 @@ projects[as_processenquiry][download][type] = git
 projects[as_processenquiry][download][url] = git@github.com:firmstepgit/as_processenquiry.git
 projects[as_processenquiry][subdir] = achieveservice
 
+projects[as_queueinformation][type] = module
+projects[as_queueinformation][download][type] = git
+projects[as_queueinformation][download][url] = git@github.com:firmstepgit/as_queueinformation.git
+projects[as_queueinformation][subdir] = achieveservice
+
 projects[as_reception][type] = module
 projects[as_reception][download][type] = git
 projects[as_reception][download][url] = git@github.com:firmstepgit/as_reception.git
