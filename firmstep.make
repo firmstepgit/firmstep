@@ -163,9 +163,9 @@ projects[libraries][type] = module
 projects[libraries][subdir] = themes/contrib
 projects[libraries][version] =  1.0
 
-projects[civicrm][type] = module
-projects[civicrm][download][type] = file
-projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
+;projects[civicrm][type] = module
+;projects[civicrm][download][type] = file
+;projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
 
 projects[nodejs][type] = module
 projects[nodejs][subdir] = contrib
