@@ -135,10 +135,10 @@ libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz
 libraries[colorbox][download][type] = get
 libraries[colorbox][download][url] = http://colorpowered.com/colorbox/colorbox.zip
-libraries[plupload][download][type] = get
-libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
-libraries[plupload][destination] = modules/mediapackage/plupload
-libraries[plupload][directory_name] = plupload
+;libraries[plupload][download][type] = get
+;libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
+;libraries[plupload][destination] = modules/mediapackage/plupload
+;libraries[plupload][directory_name] = plupload
 
 ; Firmstep Additions
 
