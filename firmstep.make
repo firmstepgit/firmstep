@@ -135,10 +135,10 @@ libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz
 libraries[colorbox][download][type] = get
 libraries[colorbox][download][url] = http://colorpowered.com/colorbox/colorbox.zip
-libraries[plupload][download][type] = get
-libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
-libraries[plupload][destination] = modules/mediapackage/plupload
-libraries[plupload][directory_name] = plupload
+;libraries[plupload][download][type] = get
+;libraries[plupload][download][url] = http://www.plupload.com/plupload_1_3_0.zip
+;libraries[plupload][destination] = modules/mediapackage/plupload
+;libraries[plupload][directory_name] = plupload
 
 ; Firmstep Additions
 
@@ -163,23 +163,75 @@ projects[libraries][type] = module
 projects[libraries][subdir] = themes/contrib
 projects[libraries][version] =  1.0
 
-projects[civicrm][type] = module
-projects[civicrm][download][type] = file
-projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
+;projects[civicrm][type] = module
+;projects[civicrm][download][type] = file
+;projects[civicrm][download][url] = "http://sourceforge.net/projects/civicrm/files/civicrm-stable/4.0.5/civicrm-4.0.5-drupal.tar.gz"
 
-projects[as_reception][type] = module
-projects[as_reception][download][type] = git
-projects[as_reception][download][url] = git@github.com:firmstepgit/as_reception.git
-projects[as_reception][subdir] = achieveservice
+projects[nodejs][type] = module
+projects[nodejs][subdir] = contrib
+
+projects[quicktabs][type] = module
+projects[quicktabs][subdir] = contrib
+
+
+
+projects[achieveservice][type] = module
+projects[achieveservice][download][type] = git
+projects[achieveservice][download][url] = git@github.com:firmstepgit/achieveservice.git
+
+projects[as_citizen][type] = module
+projects[as_citizen][download][type] = git
+projects[as_citizen][download][url] = git@github.com:firmstepgit/as_citizen.git
+projects[as_citizen][subdir] = achieveservice
 
 projects[as_frontdesk][type] = module
 projects[as_frontdesk][download][type] = git
 projects[as_frontdesk][download][url] = git@github.com:firmstepgit/as_frontdesk.git
 projects[as_frontdesk][subdir] = achieveservice
 
+projects[as_generalenquiry][type] = module
+projects[as_generalenquiry][download][type] = git
+projects[as_generalenquiry][download][url] = git@github.com:firmstepgit/as_generalenquiry.git
+projects[as_generalenquiry][subdir] = achieveservice
+
+projects[as_interaction][type] = module
+projects[as_interaction][download][type] = git
+projects[as_interaction][download][url] = git@github.com:firmstepgit/as_interaction.git
+projects[as_interaction][subdir] = achieveservice
+
+projects[as_processenquiry][type] = module
+projects[as_processenquiry][download][type] = git
+projects[as_processenquiry][download][url] = git@github.com:firmstepgit/as_processenquiry.git
+projects[as_processenquiry][subdir] = achieveservice
+
+projects[as_queueinformation][type] = module
+projects[as_queueinformation][download][type] = git
+projects[as_queueinformation][download][url] = git@github.com:firmstepgit/as_queueinformation.git
+projects[as_queueinformation][subdir] = achieveservice
+
+projects[as_reception][type] = module
+projects[as_reception][download][type] = git
+projects[as_reception][download][url] = git@github.com:firmstepgit/as_reception.git
+projects[as_reception][subdir] = achieveservice
+
+projects[as_srt][type] = module
+projects[as_srt][download][type] = git
+projects[as_srt][download][url] = git@github.com:firmstepgit/as_srt.git
+projects[as_srt][subdir] = achieveservice
+
 projects[as_ticket][type] = module
 projects[as_ticket][download][type] = git
 projects[as_ticket][download][url] = git@github.com:firmstepgit/as_ticket.git
 projects[as_ticket][subdir] = achieveservice
+
+
+projects[achieveservice_core][type] = module
+projects[achieveservice_core][download][type] = git
+projects[achieveservice_core][download][url] = git@github.com:firmstepgit/achieveservice_core.git
+projects[achieveservice_core][subdir] = achieveforms
+
+
+
+
 
 
