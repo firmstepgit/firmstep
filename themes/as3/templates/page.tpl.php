@@ -144,7 +144,9 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
-    </div></div><!-- /.section, /#content -->
+    </div>
+    <div class="srvtimestamp hidden"><?php print time(); ?></div>
+  </div><!-- /.section, /#content -->
 </div>
 
 
